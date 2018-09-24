@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import logohxh from "./images/Hunter_Association_logo.png";
-import './scss/App.css';
 
 class App extends Component {
   render() {
