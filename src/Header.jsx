@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import logohxh from "./images/Hunter_Association_logo.png";
-import './scss/App.css';
+import './scss/header.css';
 
-class App extends Component {
+class header extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="headerr">
         <header className="header">
           <div className="backgroundhxh"></div>
           <ul className="headli">
@@ -21,4 +21,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default header;
