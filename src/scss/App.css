@@ -1,11 +1,26 @@
-
-.logohxh{
-  width: 15em;
+.headli{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  color: white;
+  font-size: 3em;
+  font-family: 'Arvo', serif;
+}
+.backgroundhxh{
+  background-image: url("../images/Hunter_Association_logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
   height: 10em;
+  width: 15em;
 }
 .header {
   background-color: grey;
-  height: 150px;
+  height: 200px;
   padding: 20px;
-  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.header ul {
+  flex: 1;
 }

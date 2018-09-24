@@ -7,7 +7,14 @@ class App extends Component {
     return (
       <div className="App">
         <header className="header">
-        <img className="logohxh" src={logohxh} alt="logohxh" />
+          <div className="backgroundhxh"></div>
+          <ul className="headli">
+          <li>Les catégories de Hunter</li>
+          <li>|||</li>
+          <li>|||</li>
+          <li>|||</li>
+          <li>|||</li>
+          </ul>
         </header>
       </div>
     );
