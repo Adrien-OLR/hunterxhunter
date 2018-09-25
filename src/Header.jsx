@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import logohxh from "./images/Hunter_Association_logo.png";
-import './scss/header.css';
+import './scss/header.scss';
 
-class header extends Component {
+class Header extends Component {
   render() {
     return (
       <div className="headerr">
@@ -21,4 +21,4 @@ class header extends Component {
   }
 }
 
-export default header;
+export default Header;
