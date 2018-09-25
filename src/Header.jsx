@@ -9,7 +9,7 @@ class header extends Component {
         <header className="header">
           <div className="backgroundhxh"></div>
           <ul className="headli">
-          <li>Les catégories de Hunter</li>
+          <li>Les Hunter</li>
           <li>|||</li>
           <li>|||</li>
           <li>|||</li>
