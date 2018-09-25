@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import Header from './Header';
-
+import Homepage from "./Homepage.jsx";
 class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Header />
+      <Homepage/>
       </React.Fragment>
     );
   }
