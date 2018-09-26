@@ -1,0 +1,107 @@
+//main: ./main.scss
+.fond{
+  background-image: url("../images/fondbrigade.jpg");
+}
+.ui{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  >li{
+    transform: scale(0.9, 0.9) skewY(10deg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    display: inline-block;
+    width: 15em;
+    height: 100vh;
+    transition: .3s ease-in-out;
+    &:hover{
+      height: 50vh;
+      transition: .3s ease-in-out;
+    }
+  }
+  .backunder{
+    &:hover{
+      background-position: -500px;
+    }
+    background-image: url("../images/kuroro.png");
+    background-position: -500px;
+  }
+}
+
+// .backunder{
+//   background-image: url("../images/kuroro.png");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: center;
+//   background-position: -500px;
+//   width: 15em;
+//   display: inline-block;
+// }
+
+// .backunder1{
+//   background-image: url("../images/phinks.png");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: center;
+//   height: 60.4em;
+//   width: 15em;
+//   display: inline-block;
+// }
+// .backunder2{
+//   background-image: url("../images/sharnalk.jpg");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: center;
+//   height: 60.4em;
+//   width: 15em;
+//   display: inline-block;
+// }
+// .backunder3{
+//   background-image: url("../images/machi.png");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: -400px;
+//   height: 60.4em;
+//   width: 15em;
+//   display: inline-block;
+// }
+// .backunder4{
+//   background-image: url("../images/pakunoda.png");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: -400px;
+//   height: 60.4em;
+//   width: 15em;
+//   display: inline-block;
+// }
+// .backunder5{
+//   background-image: url("../images/feitan.png");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: -100px;
+//   height: 60.4em;
+//   width: 15em;
+//   display: inline-block;
+// }
+// .backunder6{
+//   background-image: url("../images/nobunaga.png");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: -500px;
+//   height: 60.4em;
+//   width: 15em;
+//   display: inline-block;
+// }
+// .backunder7{
+//   background-image: url("../images/uvo.png");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: -800px;
+//   height: 60.4em;
+//   width: 15em;
+//   display: inline-block;
+// }
