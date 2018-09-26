@@ -10,6 +10,7 @@
   align-items: center;
   justify-content: center;
   >li{
+    border: 1px solid black;
     transform: scale(0.9, 0.9) skewY(10deg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,12 +24,29 @@
       transition: .3s ease-in-out;
     }
   }
+  .backunder1{
+    background-image: url("../images/phinks.png");
+  }
+  .backunder2{
+    background-image: url("../images/feitan.png");
+  }
+  .backunder3{
+    background-image: url("../images/sharnalk.jpg");
+  }
+  .backunder4{
+    background-image: url("../images/machi.png");
+  }
+  .backunder5{
+    background-image: url("../images/nobunaga.png");
+  }
+  .backunder6{
+    background-image: url("../images/pakunoda.png");
+  }
+  .backunder7{
+    background-image: url("../images/uvo.png");
+  }
   .backunder{
-    &:hover{
-      background-position: -500px;
-    }
     background-image: url("../images/kuroro.png");
-    background-position: -500px;
   }
 }
 
