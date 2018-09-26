@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Heros extends Component {
+class Brigade extends Component {
   render() {
     return (
       <div className="fond">
@@ -19,4 +19,4 @@ class Heros extends Component {
   }
 }
 
-export default Heros;
+export default Brigade;
