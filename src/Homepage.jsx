@@ -5,8 +5,10 @@ class Homepage extends Component {
   render() {
     return (
       <div>
-        <Link to="brigade"> <button> brigade </button></Link>
-        <Link to="heros"> <button> hero </button></Link>
+      <ul>
+      <li>  <Link to="brigade"> <button> brigade </button></Link> </li>
+      <li>  <Link to="heros"> <button> hero </button></Link> </li>
+        </ul>
       </div>
     );
   }

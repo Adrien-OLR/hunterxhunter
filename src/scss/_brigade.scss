@@ -10,6 +10,7 @@
   align-items: center;
   justify-content: center;
   >li{
+    border: 1px solid black;
     transform: scale(0.9, 0.9) skewY(10deg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,91 +18,45 @@
     display: inline-block;
     width: 15em;
     height: 100vh;
-    transition: .3s ease-in-out;
+    transition: .5s ease-in-out;
+    p{
+      display: none;
+    }
     &:hover{
+      opacity: 0.6;
       height: 50vh;
-      transition: .3s ease-in-out;
+      transition: .5s ease-in-out;
+      p{
+        margin-top: 9em;
+        display: inline-block;
+        font-size: 2.5em;
+        color: white;
+        font-family: 'Arvo', serif;
+      }
     }
   }
   .backunder{
-    &:hover{
-      background-position: -500px;
-    }
     background-image: url("../images/kuroro.png");
-    background-position: -500px;
+  }
+  .backunder1{
+    background-image: url("../images/phinks.png");
+  }
+  .backunder2{
+    background-image: url("../images/feitan.png");
+  }
+  .backunder3{
+    background-image: url("../images/sharnalk.jpg");
+  }
+  .backunder4{
+    background-image: url("../images/machi.png");
+  }
+  .backunder5{
+    background-image: url("../images/nobunaga.png");
+  }
+  .backunder6{
+    background-image: url("../images/pakunoda.png");
+  }
+  .backunder7{
+    background-image: url("../images/uvo.png");
   }
 }
-
-// .backunder{
-//   background-image: url("../images/kuroro.png");
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   background-position: center;
-//   background-position: -500px;
-//   width: 15em;
-//   display: inline-block;
-// }
-
-// .backunder1{
-//   background-image: url("../images/phinks.png");
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   background-position: center;
-//   height: 60.4em;
-//   width: 15em;
-//   display: inline-block;
-// }
-// .backunder2{
-//   background-image: url("../images/sharnalk.jpg");
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   background-position: center;
-//   height: 60.4em;
-//   width: 15em;
-//   display: inline-block;
-// }
-// .backunder3{
-//   background-image: url("../images/machi.png");
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   background-position: -400px;
-//   height: 60.4em;
-//   width: 15em;
-//   display: inline-block;
-// }
-// .backunder4{
-//   background-image: url("../images/pakunoda.png");
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   background-position: -400px;
-//   height: 60.4em;
-//   width: 15em;
-//   display: inline-block;
-// }
-// .backunder5{
-//   background-image: url("../images/feitan.png");
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   background-position: -100px;
-//   height: 60.4em;
-//   width: 15em;
-//   display: inline-block;
-// }
-// .backunder6{
-//   background-image: url("../images/nobunaga.png");
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   background-position: -500px;
-//   height: 60.4em;
-//   width: 15em;
-//   display: inline-block;
-// }
-// .backunder7{
-//   background-image: url("../images/uvo.png");
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   background-position: -800px;
-//   height: 60.4em;
-//   width: 15em;
-//   display: inline-block;
-// }

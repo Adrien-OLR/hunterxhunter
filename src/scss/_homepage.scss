@@ -1,1 +1,12 @@
 //main: ./main.scss
+ul{
+  li{
+    list-style-type: none;
+    button{
+      font-size: 2em;
+      border: 1px black solid;
+      height: 2em;
+      width: 5em;
+    }
+  }
+}

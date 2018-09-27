@@ -1,0 +1,20 @@
+//main: ./main.scss
+
+  div{
+    background-image: url("../images/york.png");
+  }
+  .kuro{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    >li{
+      color: white;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 15em;
+      height: 100vh;
+    }
+  }
