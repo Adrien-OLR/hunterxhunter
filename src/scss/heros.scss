@@ -1,1 +1,52 @@
 //main: main.scss
+ .back{
+  background-image: url("../images/backhero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ui{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  >li{
+    transform: scale(0.9, 0.9) skewY(10deg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    display: inline-block;
+    width: 15em;
+    height: 100vh;
+    transition: .3s ease-in-out;
+    &:hover{
+      height: 50vh;
+      transition: .3s ease-in-out;
+    }
+  }
+  .gon{
+    background-image: url("../images/gon.png");
+  }
+  .killua{
+    background-image: url("../images/killua.jpg");
+  }
+  .leorio{
+    background-image: url("../images/leorio.jpg");
+  }
+  .kurapika{
+    background-image: url("../images/kurapika.jpg");
+  }
+  .hisoka{
+    background-image: url("../images/hisoka.png");
+  }
+  .illumi{
+    background-image: url("../images/illumi.png");
+  }
+  .knuckle{
+    background-image: url("../images/knuckle.png");
+  }
+  .netero{
+    background-image: url("../images/netero.png");
+  }
+}
