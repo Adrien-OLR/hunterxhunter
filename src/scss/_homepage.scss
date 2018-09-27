@@ -1,12 +1,56 @@
 //main: ./main.scss
+.homepage {
+    background-image: url("../images/backgroundhome.jpg");
+    height: 62em;
+    .hxh {
+      position: absolute;
+      top: 40%;
+      right: 10%;
+      width: 30vw;
+
+    }
+    a{
+      text-decoration: none;
+    }
+}
+
+
+
+.display {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 50%;
+ }
+
+.button {
+    margin:auto;
+    position: relative;
+    background: black;
+    border-radius: 5px;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 220px;
+    height: 990px;
+    transition: .5s;
+    border: 2px solid black;
+    overflow: hidden;
+
+}
+
+.button:hover {
+    transform: scale(0.9, 0.9);
+    background: black;
+    cursor: pointer;
+}
+
+
+
 ul{
   li{
     list-style-type: none;
-    button{
-      font-size: 2em;
-      border: 1px black solid;
-      height: 2em;
-      width: 5em;
-    }
   }
 }
