@@ -3,6 +3,7 @@ import Homepage from "./Homepage.jsx";
 import Heros from "./Heros.jsx";
 import Brigade from "./Brigade.jsx";
 import Kuroro from "./Kuroro.jsx";
+import Phinks from "./Phinks.jsx";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -16,7 +17,7 @@ class App extends Component {
             <Route path="/brigade" exact component = {Brigade}/>;
             <Route path="/heros" exact component = {Heros} />
             <Route path="/kuroro" exact component = {Kuroro} />
-
+            <Route path="/phinks" exact component = {Phinks} />
           </Switch>
         </Fragment>
       </Router>

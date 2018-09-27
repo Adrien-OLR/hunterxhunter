@@ -7,21 +7,22 @@ class Brigade extends Component {
     return (
       <div className="fond">
       <ul className="ui">
-        <li className="backunder">
+        <li>
           <div className="backunder">
-          <Link to="kuroro"><p>Kuroro Lucifer</p></Link>
-
+            <Link to="kuroro"><p>Kuroro Lucifer</p></Link>
           </div>
-
-
         </li>
-        <li className="backunder1"><p>Phinks Magkav</p></li>
-        <li className="backunder2"><p>Feitan Pohtoh</p></li>
-        <li className="backunder3"><p>Sharnalk Ryûsei</p></li>
-        <li className="backunder4"><p>Machi Komachine</p></li>
-        <li className="backunder5"><p>Nobunaga Hazama</p></li>
-        <li className="backunder6"><p>Pakunoda</p></li>
-        <li className="backunder7"><p>Uvôguine</p></li>
+      <li>
+        <div className="backunder1">
+         <Link to="phinks"><p>Phinks Magkav</p></Link>
+        </div>
+      </li>
+        <li><div className="backunder2"><p>Feitan Pohtoh</p></div></li>
+        <li><div className="backunder3"><p>Sharnalk Ryûsei</p></div></li>
+        <li><div className="backunder4"><p>Machi Komachine</p></div></li>
+        <li><div className="backunder5"><p>Nobunaga Hazama</p></div></li>
+        <li><div className="backunder6"><p>Pakunoda</p></div></li>
+        <li><div className="backunder7"><p>Uvôguine</p></div></li>
       </ul>
       </div>
     );

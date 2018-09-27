@@ -1,18 +1,20 @@
 //main: ./main.scss
-  .fondKuroro{
-    background-image: url("../images/york.png");
+  .fondPhinks{
+    background-image: url("../images/phinksfond.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100%;
     padding-top: 2em;
   }
-  .titrekuroro{
+  .titrePhinks{
     font-size: 4em;
-    color: white;
+    color: #829900;
     font-family: 'Arvo', serif;
     margin-top: 0;
     text-align: center;
   }
-  .kuro{
+  .Phinks{
     margin: 0;
     padding: 0;
     display: flex;
@@ -22,23 +24,23 @@
       margin-left: 10em;
       margin-right: 10em;
       margin-top: 10em;
-      color: white;
+      color: #829900;
       background-repeat: no-repeat;
       background-size: cover;
     }
-    .textkuroro {
+    .textPhinks {
       font-family: 'Arvo', serif;
       line-height: 2em;
       font-size: 1.2em;
     }
-    .imgKuroro{
-      background-image: url("../images/kuroro2.jpg");
+    .imgPhinks{
+      background-image: url("../images/phinks1.jpg");
       background-size: cover;
       height: 50vh;
       width: 45vh;
     }
   }
-  .kuro2{
+  .Phinks2{
     margin: 0;
     padding: 0;
     display: flex;
@@ -49,18 +51,18 @@
       margin-right: 10em;
       margin-top: 20em;
       margin-bottom: 15em;
-      color: white;
+      color: #829900;
       background-repeat: no-repeat;
       background-size: cover;
     }
   }
-    .textkuroro2{
+    .textPhinks2{
       font-family: 'Arvo', serif;
       line-height: 2em;
       font-size: 1.2em;
     }
-    .imgKuroro2{
-      background-image: url("../images/kuroro3.jpg");
+    .imgPhinks2{
+      background-image: url("../images/phinks2.jpg");
       background-size: cover;
       height: 50vh;
       width: 45vh;
