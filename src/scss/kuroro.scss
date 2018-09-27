@@ -1,20 +1,24 @@
 //main: ./main.scss
 
-  div{
+  .fondKuroro{
     background-image: url("../images/york.png");
+    height: 100vh;
   }
   .kuro{
     margin: 0;
     padding: 0;
     display: flex;
-    list-style-type: none;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     >li{
       color: white;
+      background-color: grey;
       background-repeat: no-repeat;
       background-size: cover;
-      width: 15em;
-      height: 100vh;
+    }
+    .imgKuroro{
+      background-image: url("../images/kuroro2.jpg");
+      height: 45vh;
+      width: 50vh;
     }
   }
