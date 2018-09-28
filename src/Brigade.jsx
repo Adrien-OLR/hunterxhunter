@@ -12,11 +12,11 @@ class Brigade extends Component {
             <Link to="kuroro"><p>Kuroro Lucifer</p></Link>
           </div>
         </li>
-      <li>
-        <div className="backunder1">
-         <Link to="phinks"><p>Phinks Magkav</p></Link>
-        </div>
-      </li>
+        <li>
+          <div className="backunder1">
+            <Link to="Phinks"><p>Phinks</p></Link>
+          </div>
+        </li>
         <li><div className="backunder2"><p>Feitan Pohtoh</p></div></li>
         <li><div className="backunder3"><p>Sharnalk Ryûsei</p></div></li>
         <li><div className="backunder4"><p>Machi Komachine</p></div></li>
